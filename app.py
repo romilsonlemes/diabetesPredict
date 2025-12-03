@@ -12,7 +12,7 @@ def predict(model,input_df):
     return predictions
 
 def run():
-    image_logo = image.open('logo.png')
+    image_logo = image.open('logo_diabetes.png')
     image_hospital = image.open('hospital.jpg')
 
     st.image(image_logo)
